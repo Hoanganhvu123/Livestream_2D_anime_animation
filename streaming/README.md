@@ -16,3 +16,16 @@ python multistream.py video.mp4 --rtmp rtmp://a.example/live/streamkey \
 ```
 
 `ffmpeg` must be installed and available on your `PATH`.
+
+## headless_multistream.py
+
+`headless_multistream.py` launches a virtual display using `Xvfb`, opens a web page with a Live2D character in a browser, and streams that headless session to multiple RTMP endpoints.
+
+### Example
+
+```bash
+python headless_multistream.py https://example.com/character \
+    --rtmp rtmp://a.example/live/key rtmp://b.example/app/key
+```
+
+Both `ffmpeg` and `Xvfb` must be installed.
