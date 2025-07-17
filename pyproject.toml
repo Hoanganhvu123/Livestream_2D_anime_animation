@@ -21,6 +21,7 @@ dependencies = [
     "pydub>=0.25.1",
     "pysbd>=0.3.4",
     "pyttsx3>=2.98",
+    "pyppeteer>=1.0.2",
     "pyyaml>=6.0.2",
     "requests>=2.32.3",
     "ruff>=0.8.6",
